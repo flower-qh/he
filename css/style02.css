@@ -1,0 +1,473 @@
+@charset "utf-8";
+*{
+	margin: 0px;
+	padding: 0px;
+}
+@media only screen and (min-width: 465px) and (max-width: 752px) {	
+.box{
+	width: 100%;
+	overflow: hidden;
+}
+.head{
+	position: relative;
+	width: 100%;
+	height: auto;
+}
+
+/*................按钮.....................*/
+.button{
+	padding-top:4px;
+	background:white;
+	width: 42px;
+	height: 28px;
+	margin-top:8px;
+	margin-left:90%;
+	border: 1px solid lightgray;
+	border-radius:7px;
+}
+.line{
+	text-align: center;
+	margin-top: 4px;
+	margin-left:10px;
+	border:1.5px solid gray;
+	width:22px;
+}
+.button:hover{
+	background: gainsboro;
+}
+
+.head_top{
+	position: relative;
+	width: 100%;
+	height:19px;
+	background: #333333;
+}
+.logo{
+	position: absolute;
+	width: 152px;
+	height: 119px;
+	background: #73EAC4;
+	top: -27px;
+	left: 5%;
+	text-align: center;
+	line-height: 119px;
+	color:white;
+	font-family: "微软雅黑";
+	font-size:1.7em;
+	font-weight: 900;
+	z-index: 99;
+}
+/*、、、、、、、、、、、、、、、、、、、、菜单栏、、、、、、、、、、、、、、、、、、、*/
+.head_nav{
+	position:relative;
+	width: 100%;
+	height: auto;
+	font-family: "微软雅黑";
+}
+.nav{
+	padding: 45px 0px;
+	position: relative;
+	width: 100%;
+	height: auto;
+	top:20px;
+	left:6%;
+	display: none;	
+}
+.nav_link{
+	position: relative;
+	line-height:55px;
+	font-size: 15px;
+	font-family: "微软雅黑";
+}
+.subnav .nav_link
+{
+	font-size: 12px;
+	line-height: 40px;
+	
+}
+.subnav{
+	display: none;
+}
+.nav_link:hover{
+	color: #FD7364;
+}
+li{
+	list-style: none;
+}
+/*大图banner栏*/
+.banner{
+	font-family: "微软雅黑";
+	position: relative;
+	width: 100%;
+	height:382px;
+	margin-top:10px;
+}
+.banner_img{
+	position: absolute;
+	width: 100%;
+	height:311px;
+}
+.content{
+	position: absolute;
+	width: 90%;
+	height: 145px;
+	top:205px;
+	left:1%;
+}
+.domestic,.international{
+	position: absolute;
+	width:50%;
+	height: 145px;
+	background:#FD9F95;
+	opacity: 0.8;
+}
+.domestic{
+	left:1%;
+}
+.international{
+	left:57%;
+}
+.domestic img,.international img{
+	width: 30px;
+	height: 30px;
+	position: absolute;
+    top: 30%;
+    right: 80%;
+}
+.domestic_content,.international_content{
+	position: absolute;
+	top: 24%;
+	left:25%;
+}
+.domestic_content>a,.international_content>a{
+	font-size: 13px;
+}
+.domestic_title,.international_title{
+	font-size:20px;
+	text-decoration: none;
+	line-height: 48px;
+	color: white;
+}
+.domestic_link,.international_link{
+	text-decoration: none;
+	margin-top: 35%;
+	color: black;
+}
+.domestic_content>.domestic_link:hover{
+	text-decoration: underline;
+}
+.international_content>.international_link:hover{
+	text-decoration: underline;
+}
+	/*<!--Welcome To You 栏-->*/
+.welcome{
+	font-family: "微软雅黑";
+	position: relative;
+	width: 100%;
+	height:607px;
+}
+.welcome img{
+	position:absolute;
+	width: 96%;
+	height:285px;
+	top:5%;
+	left:2%;
+}
+.welcome_content{
+	position: absolute;
+	width: 100%;
+	height: 170px;
+	top: 55%;
+	padding: 3% 2%;
+}
+h2{
+	color: #73EAC4;
+	font-size:1.5em;
+	line-height:1.2em;
+	font-weight: bold;
+}
+.welcome_subtitle{
+	margin-top: 17px;
+	font-size: 13px;
+	line-height:20px;
+	font-weight:bold;
+	width: 80%;
+}
+.welcome_main{
+	margin-top: 17px;
+	font-size: 13px;
+	line-height:20px;
+	color:gray ;
+	opacity: 0.9;
+	width: 80%;
+}
+/*<!--Wy Choose Us 栏-->*/
+.choose{
+	font-family: "微软雅黑";
+	position: relative;
+	background: #FD7364;
+	width: 100%;
+	height: 630px;
+}
+.choose>h2{
+	text-align: center;
+	padding: 10px;
+	color: white;
+	font-family: "宋体";
+	font-size: 1.5em;
+}
+.choose>img{
+	position: absolute;
+	width: 100%;
+	height:627px;
+}
+.choose_content{
+	position: absolute;
+	line-height: 20px;
+	width: 100%;
+	height: 627px;
+}
+.choose_content1>img{
+	position: absolute;
+	left:45%;
+}
+.choose_content2>img,.choose_content3>img{
+	position: absolute;
+	left:45%;
+}
+
+.choose_content1,.choose_content2,.choose_content3{
+	position: relative;
+	margin-top:6%;
+	width: 100%;
+	height:137px;
+}
+.choose_subtitle1,.choose_subtitle2,.choose_subtitle3{
+	font-size: 1.2em;
+	text-align: center;
+	padding-top:2.5em;
+	color: white;
+	font-weight: bold;
+	line-height:1.5em;
+}
+.choose_main1,.choose_main2,.choose_main3{
+	width: 90%;
+	color: white;
+	text-align: center;
+	word-spacing:1px;
+	font-size: 13px;
+	margin-left: 5%;
+}
+
+/*...............轮播。。。。。。。。。。。。。。。。。。。*/
+.testimonials{
+	font-family: "微软雅黑";
+	margin-top:100px;
+	position: relative;
+	background:#FBFBFB;
+	width: 100%;
+	height: 550px;
+	overflow: hidden;
+	
+}
+.testimonials>h2{
+	margin-top:7%;
+	left:43%;
+	text-align: center;
+	font-size:1.5em;
+}
+.testimonials_content{
+	font-family: "微软雅黑";
+	font-size: 13px;
+	text-align: center;
+	line-height: 20px;
+	width: 90%;
+	margin-left: 5%;
+	margin-top: 2%;
+}
+.pageContent1,.pageContent2,.pageContent3{
+	top:25%;
+	position: absolute;
+	width:88%;
+	height: 360px;
+	color: gray;
+	left: 6%;
+	background: white;
+	font-size: 13px;
+}
+.page1_content,.page2_content,.page3_content{
+	position:absolute;
+	left:15%;
+	top:90px;
+	font-size: 1.1em;
+	line-height: 20px;
+}
+.testimonials img{
+	position: absolute;
+	top:5%;
+	left:4%;
+	width: 80px;
+	height:80px;
+	border-radius: 40px;
+}
+
+.page1_content>h2,.page2_content>h2,.page3_content>h2{
+	position: absolute;
+	/*top:135px;*/
+	bottom: -37px;
+	font-size: 18px;
+	color: #FD7364;
+}
+.page1_sign,.page2_sign,.page3_sign{
+	position:absolute;
+	font-size:1em;
+	bottom: -63px;
+}
+.slideContent{
+	position: absolute;
+	top: 80%;
+	left: 45%;
+}
+.s1,.s2,.s3{
+	position: relative;
+	float: left;
+	width: 10px;
+	height: 10px;
+	border-radius:10px;
+	border: 2px solid #73EAC4;
+	margin-left: 10px;
+}
+/*<!--Destinations栏-->*/
+.destinations{
+	position:relative;
+	width: 100%;
+	height:auto ;
+	font-family: "微软雅黑";
+}
+.destinations_content{
+	position: relative;
+	width:91%;
+	margin-left: 3%;
+	height: auto;
+	text-align: center;
+	padding-top: 50px;
+}
+.destinations_content>h2{
+	font-size: 1.5em;
+	line-height:30px;
+}
+.destinations_content>p{
+	font-size: 13px;
+	line-height: 20px;
+	color: gray;
+}
+.destinations_main{
+	position: relative;
+	width:100%;
+	height: auto;
+}
+.destinations_img1,.destinations_img2,.destinations_img3,.destinations_img4,.destinations_img5,.destinations_img6{
+	position:relative;
+	width: 90%;
+	height: auto;
+	margin-top: 32px;
+	left: 5%;
+	border: 1px solid lightgray;
+}
+h4{
+	color:#FD7364 ;
+}
+.destinations img{
+	position: relative;
+	width:100%;
+	height:312px;
+}
+.img1_content,.img2_content,.img3_content,.img4_content,.img5_content,.img6_content{
+	text-align: center;
+	width: 100%;
+	height: 70px;
+	font-size: 13px;
+	line-height: 20px;
+	color: gray;
+	padding:3% 0%;
+	
+	border-top: 0px;
+}
+.newsletterInformation{
+	font-family: "微软雅黑";
+	font-size: 13px;
+	position:relative;
+    background: #FBFBFB;
+	width:100%;
+	height: 400px;
+}
+.newsletter{
+	position: absolute;
+	top: 50px;
+	width:88%;
+	left: 6%;
+}
+.information{
+	position: absolute;
+	top:270px;
+	width:88%;
+	left: 6%;
+}
+.newsletter>h2,.information>h2{
+	position: relative;
+	margin-left:2%;
+	margin-top:-20px;
+	float: left;
+	font-size: 1.5em;
+	line-height:1.5em;
+}
+.newsletter>p,.information>p{
+	margin-left:2%;
+	margin-top: 30px;
+	line-height:20px;
+	color: gray;
+}
+form{
+	width: 100%;
+	position: absolute;
+	top:140px;
+	left: 2%;
+}
+#email{
+	width:350px;
+	border-style: none;
+	background: white;
+	height:38px;
+}
+#email_submit{
+	width:150px;
+	height:38px;
+	background:#FD7364;
+	position: absolute;
+	left:64%;
+	border:2px solid #FD7364;
+	color: white;
+	transition: ease;
+	font-size: 18px;
+	font-family: "franklin gothic medium cond";
+}
+#email_submit:hover{
+	background: white;
+	color:#FD7364 ;
+}
+
+.footer{
+	font-family: "微软雅黑";
+	font-size: 13px;
+	position: relative;
+	text-align: center;
+	color: gray;
+	width: 100%;
+	height:50px;
+	
+}
+a{
+	text-decoration: none;
+	color: gray;
+}
+}

@@ -1,0 +1,514 @@
+﻿*{
+	margin:0px;
+	padding:0px;
+}
+/*@media screen and (min-width: 752px) and (max-width:975px) {*/
+/*------------logo+头部导航---------------*/
+	.head{
+		width: 100%;
+	}
+	.head_top{
+		width: 100%;
+		height: 32px;
+		background-color: #333333;
+		position: relative;
+	}
+	.line{
+		display: none;
+	}
+	.head_nav{
+		width: 690px;
+		height: 68px;
+		margin: 0px auto;
+		position: relative;
+	}
+	/*logo的设置*/
+	.logo{
+		display: block;
+		width: 160px;
+		height: 130px;
+		background-color: #73EAC4;
+		font-size: 25px;
+		font-family: "微软雅黑";
+		color: #fff;
+		font-weight: bold;
+		text-align: center;
+		line-height: 135px;
+		position: absolute;
+		top: -32px;
+		z-index: 10;
+	}
+	.nav{
+		list-style-type: none;
+		overflow: hidden;
+		float: left;
+		position: absolute;
+		left: 160px;
+		min-width: 545px;
+	}
+	.nav>li a:focus{
+		color: #FD7364;
+	}
+	.nav>li{
+		
+		padding: 0px 14px;
+		float: left;
+		line-height: 68px ;
+		text-align: center;
+		font-family: "微软雅黑";
+		font-size: 0.9em;
+		border-right: 1px solid #DADADA;
+	} 
+	.nav>li:nth-child(3){
+		border: none;
+		width: 120px;
+		padding: 0px;
+	}
+	.nav>li:nth-child(4){
+		border-left: 1px solid #DADADA;
+	}
+	
+	.head_nav>ul a{
+		text-decoration: none;
+		color: #333333;
+	}
+	li>a:hover{
+		color: #FD7364;
+	}
+	.subnav{
+		display: none;
+		width: 185px;
+		height: 128px;
+		list-style-type: none;
+		background-color: #fff;
+		border: 1px solid #DADADA;
+	}
+	.subnav li{
+		height:31px;
+		color: #333333;
+		text-align: left;
+		padding-left: 5px;
+		line-height: 31px;
+		font-family: "微软雅黑";
+		font-size: 1em;
+	}
+	.subnav li:hover{
+		color: #FD7364;
+		background-color: #F5F5F5;
+		box-shadow: 2px 2px 1px #A2A29F ;
+	}
+	
+	
+	
+	/*-----------banner-------------*/
+	/*banner总体设置*/
+	.banner{
+		width: 100%;
+	}
+	.banner_img{
+		width: 100%;
+	}
+	/*banner底部两个盒子整体的设置*/
+	.content{
+		width: 90%;
+		height: 120px;
+		margin: 0px auto;
+		position: relative;
+		top:-75px;
+	}
+	.domestic>img,.international>img{
+		width: 15%;
+		margin-left: 20px;
+		margin-top: 30px;
+		float: left;
+	}
+	/*第一个小盒子整体的设置*/
+	.domestic,.international{
+		width: 47%;
+		height: 120px;
+		margin-right: 2%;
+		float: left;
+		background-color: #FF7866;
+		opacity: 0.8;
+	}
+	/*第二个小盒子整体的设置*/
+	.international{
+		width: 47%;
+		height: 120px;
+		margin-left: 2%;
+		float: left;
+		background-color: #FF7866;
+		opacity: 0.8;
+	}
+	.domestic_content,.international_content{
+		float: left;
+		margin-left: 20px;
+		width: 174px;
+	}
+	/*每个盒子里小标题的设置*/
+	.domestic_title,.international_title{
+		display: block;
+		font-family: "微软雅黑";
+		font-size: 1.15em;
+		color: #fff;
+		font-weight: bold;
+		text-decoration: none;
+		margin-top: 30px;
+	}
+	/*每个小盒子里超链接的设置*/
+	.domestic_link,.international_link{
+		display: block;
+		margin-right: 15px;
+		text-decoration: none;
+		color: #000;
+		font-family: "微软雅黑";
+		font-size: 0.7em;
+		float: left;
+		white-space: nowrap;
+	}
+	
+	
+	
+	/*---------- -----welcome部分-------------------*/
+	.welcome{
+		width: 80%;
+		margin: 0px auto;
+		overflow:auto;
+	}
+	/*welcome图片部分*/
+	.welcome>img{
+		width: 100%;
+		margin-bottom: 30px;
+	}
+	/*welcome文字部分*/
+	.welcome_content{
+		width:100%;
+		margin: 0px auto;
+		margin-bottom: 60px;
+	}
+	/*-----------welcome to you--------------*/
+	.welcome_content>h2{
+		font-family: "微软雅黑";
+		font-size: 1.3em;
+		font-weight: bold;
+		line-height: 1.6em;
+		color: #73EAC4;
+	}
+	/*welcome文字部分的第一部分*/
+	.welcome_subtitle{
+		font-family: "微软雅黑";
+		font-size: 0.8em;
+		font-weight: bold;
+		line-height: 1.8em;
+		padding: 8px 0px;
+		padding-bottom: 0.5em;
+	}
+	/*welcome文字部分的第二部分*/
+	.welcome_main{
+		font-family: "微软雅黑";
+		font-size: 0.75em;
+		line-height: 1.7em;
+		color:#8194AA;
+	}
+	
+	
+	/*-------------choose部分-------------*/
+	.choose{
+		width: 100%;
+		margin-top: 48px;
+		position: relative;
+		margin: 0px auto;
+	}
+	.choose>img{
+		width: 100%;
+		height: 500px;
+	}
+	/*-------------粉色线条-------------*/
+	.choose>h2{
+		width: 100%;
+		height: 48px;
+		text-align: center;
+		line-height: 48px;
+		font-family: "微软雅黑";
+		font-size: 1.2em;
+		font-weight: bold;
+		background-color: #FD7364;
+		color: #fff;
+	}
+	/*choose部分三个白色图标*/
+	.choose_content1>img,.choose_content2>img,.choose_content3>img{
+		display: block;
+		widows: 15%;
+		margin: 0px auto;
+	}
+	/*三段话的整体盒子*/
+	.choose_content{
+		width: 70%;
+		height: 500px;
+		position: absolute;
+		left: 50%;
+		margin-left: -35%;
+		top: 80px;
+		overflow: hidden;
+	}
+	/*三个小盒子的居中设置*/
+	.choose_content1,.choose_content2,.choose_content3{
+		width: 100%;
+		height: 150px;
+	}
+	/*三个盒子中每一个的大标题*/
+	.choose_subtitle1,.choose_subtitle2,.choose_subtitle3{
+		font-family: "微软雅黑";
+		font-size: 1em;
+		line-height: 40px;
+		color: #fff;
+		font-weight: bold;
+		text-align: center;
+	}
+	/*三个盒子中每一个大标题下的正文内容*/
+	.choose_main1,.choose_main2,.choose_main3{
+		text-align: center;
+		font-family: "微软雅黑";
+		font-size: 0.75em;
+		line-height: 20px;
+		color: #fff;
+		font-weight: 500;
+	}
+	
+	
+	
+	/*------------人员简介部分--------------*/
+	/*整体盒子的设置*/
+	.testimonials{
+		position: relative;
+		width: 100%;
+		padding-top: 45px;
+		padding-bottom: 8%;
+		overflow: auto;
+		background-color: #FBFBFB;
+	}
+	/*蓝色标题的设置*/
+	.testimonials>h2{
+		height: 30px;
+		font-family: "微软雅黑";
+		font-size: 1.6em;
+		font-family: arial;
+		color: #73EAC4;
+		text-align: center;
+	}
+  	/*蓝色标题下面的两行字*/
+	.testimonials_content{
+		width: 65%;
+		height: 110px;
+		margin: 0px auto;
+		padding-top: 10px;
+		color: #8194AA;
+		font-family: "微软雅黑";
+		font-size: 0.8em;
+		line-height: 1.5em;
+	}
+	/*三个介绍的整体盒子*/
+	.testimonials_carousel{
+		width: 80%;
+		margin: 0px auto;
+	}
+	/*每个盒子*/
+	.pageContent1,.pageContent2,.pageContent3{
+		width: 90%;
+		margin: 0px auto;
+		overflow: auto;
+		padding: 5% 5% 0 5%;
+		background-color: #fff;
+	}
+	/*隐藏*/
+	.pageContent1,.pageContent2{
+		display: none;
+	}
+	/*三个头像设置*/
+		.pageContent1>img,.pageContent2>img,.pageContent3>img{
+		width: 15%;
+		border-radius: 80px;
+		float: left;
+	}
+	/*第一个人头像右边的介绍文字*/
+	.page1_content,.page2_content,.page3_content{
+		width: 80%;
+		font-family: "微软雅黑";
+		font-size: 0.8em;
+		color: #8194AA;
+		float: left;
+		margin-left: 5%;
+		line-height: 1.8em;
+	}
+	/*头像下面粉色字体*/
+	.testimonials_carousel h2{
+		font-family: "微软雅黑";
+		font-size: 1.5em;
+		color: #FD7364;
+		margin-top: 15px;
+	}
+	.page1_sign,.page2_sign,.page3_sign{
+		color: #000;
+	}
+	/*按钮整体盒子*/
+	.slideContent{
+		width: 80%;
+		margin: 0px auto;
+		overflow: hidden;
+		background-color: #fff;
+	}
+	/*三个按钮*/
+	.s1,.s2,.s3{
+		width: 3%;
+		list-style-position: inside;
+		float: left;
+		list-style-type: circle;
+		color: #73EAC4;
+		font-size: 40px;
+		font-weight: 900;
+	}
+	.s1{
+		padding-left: 49%;
+	}
+
+	
+	/*图片浏览部分整体*/
+	.destinations{
+		width: 100%;
+	}
+	/*蓝色标题和下面的字*/
+	.destinations_content{
+		width: 70%;
+		margin: 0px auto;
+		text-align: center;
+	}
+	/*蓝色标题*/
+	.destinations_content>h2{
+		width: 100%;
+		font-family: "微软雅黑";
+		font-size: 1.5em;
+		color: #73EAC4;
+		padding-top: 30px;
+	}
+	/*标题下面的字*/
+	.destinations_content>p{
+		width: 100%;
+		font-family: "微软雅黑";
+		font-size: 0.8em;
+		line-height: 1.5em;
+		color: #8194AA;
+		margin-bottom: 18px;
+	}
+	/*标题下面图片的整体盒子*/
+	.destinations_main{
+		width: 80%;
+		margin: 0px auto;
+		overflow: auto;
+	}
+	/*第一张图片包含文字的整体盒子*/
+	.destinations_img1,.destinations_img2,.destinations_img3,.destinations_img3,.destinations_img4,.destinations_img5,.destinations_img6{
+		width: 29%;
+		margin: 2%;
+		float: left;
+		border: 1px solid #EEEEEE;
+		margin-bottom: 55px;
+	}
+	/*第一张图片设置*/
+	.destinations_img1>img,.destinations_img2>img,.destinations_img3>img,.destinations_img4>img,.destinations_img5>img,.destinations_img6>img{
+		width: 100%;
+	}
+	/*第一张图片下面的字*/
+	.img1_content,.img2_content,.img3_content,.img4_content,.img5_content,.img6_content{
+		width: 100%;
+		font-family: "微软雅黑";
+		border-top: none;
+	}
+	/*第一张图片下面小标题*/
+	.img1_content>h4,.img2_content>h4,.img3_content>h4,.img4_content>h4,.img5_content>h4,.img6_content>h4{
+		text-align: center;
+		color: #FD7364;
+		font-size: 0.8em;
+		padding: 5% 2%;
+	}
+	/*图片下面小文字*/
+	.img1_content>p,.img2_content>p,.img3_content>p,.img4_content>p,.img5_content>p,.img6_content>p{
+		text-align: center;
+		color: #8194AA;
+		font-size: 0.75em;
+		line-height: 1.5em;
+		padding: 0 2%;
+	}
+	
+	
+	/*-------Information部分---------*/
+	.newsletterInformation{
+		width: 100%;
+		overflow: auto;
+		background-color: #FBFBFB;
+	}
+	.newsletter,.information{
+		width: 80%;
+		margin: 0px auto;
+	}
+	.newsletter>h2,.information>h2{
+		color: #73EAC4;
+		font-family: "微软雅黑";
+		height: 35px;
+		line-height: 35px;
+	}
+	.newsletter>p,.information>p{
+		color: #8194AA;
+		font-family: "微软雅黑";
+		font-size: 0.8em;
+		line-height: 1.6em;
+		margin-bottom: 20px;
+	}
+	form{
+		width: 95%;
+		height: 40px;
+		margin: 0px auto;
+		margin-bottom: 25px;
+	}
+	#email{
+		width: 75%;
+		height: 40px;
+		border: none;
+		float: left;
+		background-color: #fff;
+	}
+	#email_submit{
+		width: 24%;
+		height: 40px;
+		border: none;
+		float: left;
+		color: #fff;
+		font-family: "微软雅黑";
+		background-color: #FD7364;
+	}
+	#email_submit:hover{
+	cursor: pointer;
+	background-color: #FFFFFF;
+	color:#FD7364 ;
+}
+	
+	
+	/*底部*/
+	.footer{
+		width: 80%;
+		margin: 0px auto;
+		font-size: 0.8em;
+		color: #8194AA;
+	}
+	.footer>p{
+		width: 100%;
+		height: 60px;
+		font-family: "微软雅黑";
+		line-height: 60px;
+		text-align: center;
+	}
+	.footer a{
+		text-decoration: none;
+		font-size: 0.7em;
+		color: #AAAAAB;
+	}
+/*}*/

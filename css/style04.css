@@ -1,0 +1,469 @@
+﻿@charset "utf-8";
+.box{
+	width:100%;
+}
+.head{
+	height: 160px;
+}
+.head_top{
+	height: 30px;
+	background-color: black;
+}
+.logo{
+	position: absolute;
+	background-color: #73EAC4;
+	width: 200px;
+	height: 150px;
+	color: white;
+	line-height: 150px;
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+	top: 0px;
+	right:70%;
+	z-index: 10;
+}
+.line{
+	display: none;
+}
+.nav{
+	position: absolute;
+	width:50%;
+	left:30%;
+	list-style-type: none;
+
+	float: left;
+}	
+
+ 
+.nav li{
+		
+		float: left;
+		line-height: 100px;
+		text-align: center;
+		vertical-align: middle;
+		font-family: "微软雅黑";
+		font-size:0.9em;
+		
+	} 
+.nav>li:nth-child(1){
+		width:12%;
+		margin-left:1%;
+		padding: 0px;
+		border-right: 1px solid #DADADA;
+	}
+.nav>li:nth-child(2){
+	  margin-left:1%;
+		width:12%;
+		padding: 0px;
+		border-right: 1px solid #DADADA;
+
+	}
+.nav>li:nth-child(3){
+	
+		width:22%;
+		padding: 0px;
+		margin-left:1%;
+	}
+.nav>li:nth-child(4){
+		width:12%;
+		padding: 0px;
+		margin-left:1%;
+		border-left: 1px solid #DADADA;
+		border-right: 1px solid #DADADA;
+	}
+	.nav>li:nth-child(5){
+		width:18%;
+		padding: 0px;
+		margin-left:1%;
+		border-right: 1px solid #DADADA;
+	}
+.nav>li:nth-child(6){
+	    width:12%;
+		padding: 0px;
+		margin-left:1%;
+border-right: 1px solid #DADADA;
+	}
+	
+.head_nav>ul a{
+		text-decoration: none;
+		color: #333333;
+	}
+	li>a:hover{
+		color: #FD7364;
+	}
+	.subnav{
+		display: none;
+		width:150%;
+		height: 128px;
+		list-style-type: none;
+		background-color: #FFFFFF;
+		border: 1px solid #DADADA;
+		z-index: 99;
+		margin-left:-7%;
+	}
+	.subnav li{
+		width: 100%;
+		height:31px;
+		color: #333333;
+		text-align: left;
+		padding-left: 5px;
+		line-height: 31px;
+		font-family: "微软雅黑";
+		font-size: 1em;
+	}
+	.subnav li:hover{
+		color: #FD7364;
+		background-color: #F5F5F5;
+		box-shadow: 2px 2px 1px #A2A29F ;
+	}
+	
+
+
+
+
+
+
+
+.banner{
+	width: 100%;
+}
+.banner_img{
+	width: 100%;
+	margin-top: -30px;
+}
+/*--------------两个红色框-----------------*/
+.content{
+	height: 150px;
+	width: 70%;
+	position: absolute;
+	left: 15%;
+	margin-top: -120px;
+}
+.domestic{
+	width: 45%;
+	height: 150px;
+	opacity: 0.9;
+	background-color: #FD9F95;
+	float: left;
+}
+.domestic img,.international img{
+	margin: 34px 0px 0px 30px;
+	float: left;
+}
+.domestic_content,.international_content{
+	margin-top: 30px;
+	/*background-color: #000000;*/
+    width: 75%;
+    margin-left: 25%;
+}
+.domestic_title,.international_title{
+	color: white;
+	font-size: 30px;
+	text-decoration: none;
+	font-weight: bold;
+}
+.domestic_link,.international_link{
+   text-decoration: none;
+   float: left;
+    color: #000000;
+    font-size: 18px;
+}
+.international{
+	width: 45%;
+	height: 150px;
+	opacity: 0.9;
+	background-color: #FD9F95;
+	float: right;
+}
+/*-----------------welcome--------------*/
+.welcome{
+	position: relative;
+	top:0px;
+	width: 100%;
+	height: 500px;
+}
+.welcome img{
+	position: absolute;
+	width: 35%;
+	height: 55%;
+	left: 12%;
+	top: 20%;
+}
+.welcome_content h2{
+	position: absolute;
+	color: dodgerblue;
+	top: 20%;
+	left: 60%;
+}
+.welcome_subtitle{
+	position: absolute;
+	width: 550px;
+	top: 35%;
+	left: 50%;
+	font-size: 18px;
+	font-weight: bold;
+}
+.welcome_main{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 40%;
+	font-size: 18px;
+}
+/*-------------------why choose us----------------------栏*/
+.choose{
+	position: relative;
+	top: 0px;
+	width: 100%;
+}
+.choose_bg{
+	width: 100%;
+	height: 430px;
+}
+.choose h2{
+	text-align: center;
+	top: -1px;
+	height: 48px;
+	line-height: 48px;
+	background-color: #FD7364;
+	font-size: 30px;
+	font-weight: bolder;
+	color: white;
+	font: "微软雅黑";
+}
+.choose_content1{
+	position: absolute;
+	top: 60px;
+	width: 25%;
+	left: 7%;
+}
+.choose_content2{
+	position:absolute;
+	width: 25%;
+	left: 35%;
+	top: 60px;
+}
+.choose_content3{
+	position: absolute;
+	width: 30%;
+	top: 60px;
+	left: 65%;
+}
+.choose_content1 img,.choose_content2 img,.choose_content3 img{
+	position: absolute;
+	top: 50px;
+	left: 40%;
+}
+.choose_subtitle1,.choose_subtitle2,.choose_subtitle3{
+	position: relative;
+	top: 130px;
+	text-align: center;
+	font: "幼圆";
+	font-size: 30px;
+	color: white;
+	font-weight: bolder;
+}
+.choose_main1,.choose_main2,.choose_main3{
+	position: absolute;
+	top: 210px;
+	text-align: center;
+	font-size: 18px;
+	color:white;
+}
+/*---------------------Testimonials栏----------------*/
+.testimonials{
+	position: relative;
+	width: 100%;
+	height:500px ;
+	/*top: 1850px;*/
+}
+.testimonials h2{
+	position: absolute;
+	top:40px;
+	color: #73EAC4;
+	left: 43%;
+}
+.testimonials_content {
+	position: relative;
+	width:60%;
+	left: 20%;
+	text-align: center;
+	top: 100px;
+	font-size: 18px;
+}
+.page1_main,.page2_main,.page3_main{
+	position: absolute;
+	width:60%;
+	left: 20%;
+	text-align: center;
+	top: 200px;
+	font-size: 18px;
+}
+.page1_content h2,.page2_content h2,.page3_content h2{
+	position: absolute;
+	top: 350px;
+	left: 23%;
+	color: red;
+	font-size: 30px;
+	font-weight: bold;
+}
+.pageContent1 img,.pageContent2 img,.pageContent3 img{
+	position: absolute;
+	left: 5%;
+	top: 250px;
+	width: 150px;
+	height: 150px;
+	border-radius: 150px;
+}
+.page1_sign,.page2_sign,.page3_sign{
+	position: absolute;
+	left: 23%;
+	top: 400px;
+	font-size: 18px;
+}
+/*---------------------Destinations栏-----------------------*/
+.destinations{
+	position: relative;
+	/*top: 2350px;*/
+	margin-top: 50px;
+    width: 100%;
+    height: 1000px;
+}
+.destinations_content h2{
+	position: absolute;
+    color: #73EAC4;
+	top: 0px;
+	left: 45%;
+}
+.destinations_content p{
+	position: absolute;
+	width: 55%;
+	top: 75px;
+	left: 25%;
+	font-size: 18px;
+}
+.destinations_main{
+	position: absolute;
+	width: 80%;
+	left: 10%;
+	top:150px;
+}
+.destinations_img1,.destinations_img2,.destinations_img3,.destinations_img3,.destinations_img4,.destinations_img5,.destinations_img6{
+		width: 31%;
+		margin: 1%;
+		float: left;
+		border: 1px solid blanchedalmond;
+	}
+	/*第一张图片设置*/
+.destinations_img1>img,.destinations_img2>img,.destinations_img3>img,.destinations_img4>img,.destinations_img5>img,.destinations_img6>img{
+		width: 100%;
+	}
+.destinations_main h4{
+	color: red;
+	text-align: center;
+	padding: 2%;
+}
+.destinations_main p{
+	font-size: 18px;
+	padding: 3%;
+	color: black;
+	text-align: center;
+}
+/*-----------Newsletter栏和Information栏------------------*/
+.newsletterInformation{
+	position: relative;
+	width: 90%;
+	left: 5%;
+  /*  top: 3300px;*/
+ margin-top: 50px;
+}
+.newsletter{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 50%;
+	height: 250px;
+}
+.newsletter h2{
+	position: absolute;
+	left: 7%;
+	top: 10px;
+	color: #73EAC4;
+}
+.newsletter p{
+	position: absolute;
+	left: 7%;
+	top: 50px;
+	vertical-align: top;
+	font-size: 18px;
+}
+form{
+	position: absolute;
+	top: 150px;
+	width: 90%;
+	height: 50px;
+	left: 7%;
+}
+#email{
+	height: 60%;
+	width: 30%;
+	border: none;
+}
+#email_submit{
+	background-color:#FD7364;
+	height: 60%;
+	width: 25%;
+	margin-left: 30%;
+}
+#email_submit:hover{
+	cursor: pointer;
+	background-color: #FFFFFF;
+	color:#FD7364 ;
+}
+.information{
+	position: relative;
+	top: 0;
+	left: 50%;
+	width: 50%;
+	height: 250px;
+}
+.information h2{
+	position: absolute;
+	left: 7%;
+	top: 10px;
+	color: #73EAC4;
+}
+.information p{
+	position: absolute;
+	left: 7%;
+	top: 50px;
+	vertical-align: top;
+	font-size: 18px;
+}
+.footer{
+	position: relative;
+	width: 100%;
+	height:50px;
+	/*top: 3500px;*/
+}
+.footer a{
+		text-decoration: none;
+		font-size: 0.8em;
+		color: #AAAAAB;
+	}
+.footer p{
+	position:relative;
+	text-align: center;
+	top: 10px;
+        text-decoration: none;
+        color: #AAAAAB;
+}
+.share_icon{
+	position: absolute;
+	width: 80%;
+	height: 50px;
+	top: 150px;
+	left: 7%;
+}
+
